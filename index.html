@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Service Desk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-briefcase"></i> Portfólio Service Desk</h1>
+            <div class="admin-controls">
+                <button class="admin-btn" onclick="toggleAdmin()" id="admin-toggle-btn"><i class="fas fa-cog"></i> Admin</button>
+            </div>
+            <div class="breadcrumb" id="breadcrumb">
+                <span class="breadcrumb-item active">Portfólio</span>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <!-- Página Principal -->
+            <div class="page active" id="portfolio-page">
+                <div class="services-grid">
+                    <div class="service-card" onclick="navigateTo('acesso')">
+                        <div class="service-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Acesso</h3>
+                            <p> / Webmail / Sites / Acesso remoto / Pastas de rede</p>
+                        </div>
+                        <div class="service-status negocio">Negócio</div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('equipamentos')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Equipamentos & Softwares</h3>
+                            <p>Manutenção de equipamentos, instalação, remoção e reporte de falha</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('projetos')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Projetos</h3>
+                            <p>Solicitação de Cabeamento, Informatização de localidades e Wireless</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('datacenter')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Serviços de Datacenter</h3>
+                            <p>Backup e Servidores</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('rede-cabeamento')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Serviços de Rede e Cabeamento</h3>
+                            <p>Equipamentos de rede, Cabeamento, Firewall e Link de comunicação</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('sistemas')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Sistemas</h3>
+                            <p>Administrativos / Geoprocessamento</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('telefonia-fixa')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Telefonia Fixa</h3>
+                            <p>Aparelho fixo / Ramal</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('telefonia-movel')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Telefonia Móvel</h3>
+                            <p>Aparelho celular, chip e mini modem</p>
+                        </div>
+                    </div>
+
+                    <div class="admin-controls-card" id="admin-modules-btn" style="display: none;">
+                        <div class="service-card admin-card" onclick="showModuleManager()">
+                            <div class="service-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Gerenciar Módulos</h3>
+                                <p>Mostrar/Ocultar, Criar, Editar e Excluir módulos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Acesso -->
+            <div class="page" id="acesso-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-key"></i> Acesso</h2>
+                    <p>xxxxxxnet / Webmail / Sites / Acesso remoto / Pastas de rede</p>
+                    <div class="service-status negocio">Negócio</div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card" onclick="navigateTo('acesso-remoto-funcionarios')">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Acesso remoto (funcionários)</h3>
+                            <p>Extranet</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" onclick="navigateTo('acesso-remoto-terceirizados')">
+                        <div class="service-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Acesso remoto (terceirizados)</h3>
+                            <p>Extranet</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card " onclick="navigateTo('usuario')" >
+                        <div class="service-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Usuário</h3>
+                            <p>Apenas usuário xxxxxxnet</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" onclick="navigateTo('adobe-sign')"">
+                        <div class="service-icon">
+                            <i class="fab fa-adobe"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Adobe Sign</h3>
+                            <p>Assinatura Eletrônica</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" onclick="navigateTo('autenticacao-multifator')"">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Autenticação Multifator - MFA</h3>
+                            <p>Autenticação Multifator da Microsoft</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" onclick="navigateTo('controle-acesso')"">
+                        <div class="service-icon">
+                            <i class="fas fa-folder-lock"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Controle de Acesso - Ambiente/Pasta</h3>
+                            <p>Pastas de rede / Mapeamento de rede</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('email')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>E-mail</h3>
+                            <p>Outlook</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('internet')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Internet</h3>
+                            <p>Sites / Portais</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card hidden-module" onclick="navigateTo('wireless')" style="display: none;">
+                        <div class="service-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Wireless</h3>
+                            <p>Rede sem fio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Usuário -->
+            <div class="page" id="usuario-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-user"></i> Usuário</h2>
+                    <p>Apenas usuário xxxxxxnet</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showUserTypeModal('ativar-desativar')">
+                        <div class="activity-icon">
+                            <i class="fas fa-power-off"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Ativar / Desativar</h3>
+                            <p>P/retorno de licença, falta de logon por 2 meses, desligamentos. C/aprovação</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showUserTypeModal('criar')">
+                        <div class="activity-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Criar</h3>
+                            <p>Informar<br>Empregados: Espelho<br> Terceiros: Nome, Cargo, CPF, RG, DT_NASC., E-mail, espelho<br>Empresa: Contrato/Validade</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showUserTypeModal('desbloquear')">
+                        <div class="activity-icon">
+                            <i class="fas fa-unlock"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Desbloquear</h3>
+                            <p>Bloqueio por senha incorreta ou bloqueios frequentes</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showUserTypeModal('grupos-liberar-bloquear')">
+                        <div class="activity-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Grupos - Liberar / Bloquear</h3>
+                            <p>Gerenciamento de grupos de usuários</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showUserTypeModal('modificar')">
+                        <div class="activity-icon">
+                            <i class="fas fa-user-edit"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Modificar</h3>
+                            <p>Modificações no cadastro da conta de rede do usuário</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showUserTypeModal('senha-alterar')">
+                        <div class="activity-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Senha - alterar</h3>
+                            <p>Acesse http://xetaxxxxxx para criar novas senhas xxxxxxnet/SAP/Sistema Interno</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Acesso Remoto Funcionários -->
+            <div class="page" id="acesso-remoto-funcionarios-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-users"></i> Acesso remoto (funcionários)</h2>
+                    <p>Extranet</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showGuide('bloquear-desbloquear-funcionario')">
+                        <div class="activity-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Bloquear / Desbloquear</h3>
+                            <p>Template para bloqueio/desbloqueio de acesso remoto</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('configurar-funcionario')">
+                        <div class="activity-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Configurar</h3>
+                            <p>Template para configuração de acesso remoto</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('criar-excluir-funcionario')">
+                        <div class="activity-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Criar / Excluir</h3>
+                            <p>Template para criação/exclusão de acesso remoto</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('reportar-falha-funcionario')">
+                        <div class="activity-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Reportar falha</h3>
+                            <p>Template para reporte de falhas no acesso remoto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Acesso Remoto Terceirizados -->
+            <div class="page" id="acesso-remoto-terceirizados-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-user-friends"></i> Acesso remoto (terceirizados)</h2>
+                    <p>Extranet</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showGuide('auditoria-terceirizado')">
+                        <div class="activity-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Auditoria</h3>
+                            <p>Template para auditoria de acesso remoto</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('bloquear-desbloquear-terceirizado')">
+                        <div class="activity-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Bloquear / Desbloquear</h3>
+                            <p>Template para bloqueio/desbloqueio de acesso remoto</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('configurar-terceirizado')">
+                        <div class="activity-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Configurar</h3>
+                            <p>Template para configuração de acesso remoto</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('criar-excluir-terceirizado')">
+                        <div class="activity-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Criar / Excluir</h3>
+                            <p>Template para criação/exclusão de acesso remoto</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('reportar-falha-terceirizado')">
+                        <div class="activity-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Reportar falha</h3>
+                            <p>Template para reporte de falhas no acesso remoto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Adobe Sign -->
+            <div class="page" id="adobe-sign-page">
+                <div class="page-header">
+                    <h2><i class="fab fa-adobe"></i> Adobe Sign</h2>
+                    <p>Assinatura Eletrônica</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showGuide('liberar-bloquear-adobe')">
+                        <div class="activity-icon">
+                            <i class="fas fa-unlock-alt"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Liberar / Bloquear</h3>
+                            <p>Inclusão no grupo GRP_AdobeSign. Necessário informar matrícula espelho</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Autenticação Multifator -->
+            <div class="page" id="autenticacao-multifator-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-shield-alt"></i> Autenticação Multifator - MFA</h2>
+                    <p>Autenticação Multifator da Microsoft</p>
+                </div>
+
+                    <div class="activity-card" onclick="showGuide('configurar-mfa')">
+                        <div class="activity-icon">
+                            <i class="fas fa-unlock"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Configurar</h3>
+                            <p>Alterar ou cadastrar número de telefone de empregado
+Empreiteiras: informar e-mail corporativo.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('reportar-falha-mfa')">
+                        <div class="activity-icon">
+                            <i class="fas fa-user-edit"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Reportar falha</h3>
+                            <p>Reportar falha do MFA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Controle de Acesso -->
+            <div class="page" id="controle-acesso-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-folder-lock"></i> Controle de Acesso - Ambiente/Pasta</h2>
+                    <p>Pastas de rede / Mapeamento de rede</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showGuide('acesso-liberar-bloquear-pasta')">
+                        <div class="activity-icon">
+                            <i class="fas fa-folder-plus"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Acesso - Liberar / Bloquear</h3>
+                            <p>Liberar acesso à pasta de rede / Mapear unidade de rede (U: Z: V: X:) (Obs.: Informar matrícula espelho)</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('criar-pasta-de-rede')">
+                        <div class="activity-icon">
+                            <i class="fas fa-power-off"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Criar pasta de rede</h3>
+                            <p>Criar nova pasta de rede</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('modificar-controle-acesso')">
+                        <div class="activity-icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Dúvidas</h3>
+                            <p>Template para Dúvidas de rede</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('modificar-controle-acesso')">
+                        <div class="activity-icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Excluir pasta de rede</h3>
+                            <p>Template para Exclusão pasta de rede</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('modificar-controle-acesso')">
+                        <div class="activity-icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Reportar falha</h3>
+                            <p>Template para Falha de acesso / Perda de mapeamento de rede</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de E-mail -->
+            <div class="page" id="email-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-envelope"></i> E-mail</h2>
+                    <p>Outlook</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showGuide('criar-email')">
+                        <div class="activity-icon">
+                            <i class="fas fa-envelope-open"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Criar</h3>
+                            <p>Template para criação de caixa de e-mail</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('ativar-desativar-email')">
+                        <div class="activity-icon">
+                            <i class="fas fa-power-off"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Ativar / Desativar</h3>
+                            <p>Template para ativação/desativação de e-mail</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('modificar-email')">
+                        <div class="activity-icon">
+                            <i class="fas fa-envelope-square"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Modificar</h3>
+                            <p>Template para modificação de configurações</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Internet -->
+            <div class="page" id="internet-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-globe"></i> Internet</h2>
+                    <p>Sites / Portais</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showGuide('criar-internet')">
+                        <div class="activity-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Criar</h3>
+                            <p>Template para liberação de acesso à internet</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('ativar-desativar-internet')">
+                        <div class="activity-icon">
+                            <i class="fas fa-power-off"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Ativar / Desativar</h3>
+                            <p>Template para ativação/desativação de internet</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('modificar-internet')">
+                        <div class="activity-icon">
+                            <i class="fas fa-globe-europe"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Modificar</h3>
+                            <p>Template para modificação de permissões</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Wireless -->
+            <div class="page" id="wireless-page">
+                <div class="page-header">
+                    <h2><i class="fas fa-wifi"></i> Wireless</h2>
+                    <p>Rede sem fio</p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card" onclick="showGuide('criar-wireless')">
+                        <div class="activity-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Criar</h3>
+                            <p>Template para criação de acesso wireless</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('ativar-desativar-wireless')">
+                        <div class="activity-icon">
+                            <i class="fas fa-power-off"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Ativar / Desativar</h3>
+                            <p>Template para ativação/desativação de wireless</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" onclick="showGuide('modificar-wireless')">
+                        <div class="activity-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Modificar</h3>
+                            <p>Template para modificação de acesso wireless</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Modal para guias -->
+        <div class="modal" id="guide-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modal-title">Guia de Preenchimento</h3>
+                    <span class="close" onclick="closeModal()">&times;</span>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <!-- Conteúdo do guia será inserido aqui -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de login admin -->
+        <div class="modal" id="admin-login-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Login Administrador</h3>
+                    <span class="close" onclick="closeAdminLogin()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Usuário:</label>
+                        <input type="text" id="admin-user" placeholder="Digite o usuário">
+                    </div>
+                    <div class="form-group">
+                        <label>Senha:</label>
+                        <input type="password" id="admin-pass" placeholder="Digite a senha">
+                    </div>
+                    <button class="btn" onclick="adminLogin()">Entrar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de edição admin -->
+        <div class="modal" id="admin-edit-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Editar Template</h3>
+                    <span class="close" onclick="closeAdminEdit()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Título:</label>
+                        <input type="text" id="edit-title" placeholder="Título do template">
+                    </div>
+                    <div class="form-group">
+                        <label>Instruções:</label>
+                        <textarea id="edit-instructions" placeholder="Como preencher o template"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Template:</label>
+                        <textarea id="edit-template" placeholder="Texto do template"></textarea>
+                    </div>
+                    <button class="btn" onclick="saveTemplate()">Salvar</button>
+                    <button class="btn btn-secondary" onclick="closeAdminEdit()">Cancelar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de seleção de tipo de usuário -->
+        <div class="modal" id="user-type-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Selecionar Tipo de Usuário</h3>
+                </div>
+                <div class="modal-body">
+                    <p id="user-type-question">Qual tipo de usuário você deseja criar?</p>
+                    <div style="display: flex; gap: 15px; justify-content: center; margin-top: 20px;">
+                        <button class="btn" onclick="selectUserType('empregado')">Empregado</button>
+                        <button class="btn" onclick="selectUserType('terceirizado')">Terceirizado</button>
+                        <button class="btn" onclick="selectUserType('jovem-aprendiz')">Jovem Aprendiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de gerenciamento de módulos -->
+        <div class="modal" id="module-manager-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Gerenciar Módulos</h3>
+                    <span class="close" onclick="closeModuleManager()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="module-list" id="module-list">
+                        <!-- Lista de módulos será inserida aqui -->
+                    </div>
+                    <button class="btn" onclick="createNewModule()">+ Criar Novo Módulo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
