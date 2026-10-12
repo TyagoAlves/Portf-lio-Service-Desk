@@ -223,11 +223,11 @@ ${custom.template}
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('empregado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de usuário xxxxxxnet para outro empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de usuário de rede interna para outro empregado
 
 MATRÍCULA:
 NOME:
-E-MAIL: matricula@cxxxxx.com.br
+E-MAIL: matricula@empresaexemplo.com.br
 SETOR:
 CPF:
 RG:
@@ -261,15 +261,15 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('jovem-aprendiz')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de usuário xxxxxxnet e E-mail Parceiro para Jovem Aprendiz
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de usuário de rede interna e E-mail Parceiro para Jovem Aprendiz
 
-MATRÍCULA DO EMPREGADO SOLICITANTE(Para aprovação do gestor):
+MATRÍCULA DO EMPREGADO SOLICITANTE (Para aprovação do gestor):
 NOME COMPLETO:
 MATRÍCULA:
 CPF:
 RG:
 DATA DE NASCIMENTO:
-E-MAIL: matricula@parceiro.cxxxxx.com.br
+E-MAIL: matricula@parceiro.empresaexemplo.com.br
 ESPELHO:
 EMPRESA:
 VALIDADE:
@@ -300,9 +300,9 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de usuário xxxxxxnet e E-mail Parceiro para Terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de usuário de rede interna e E-mail Parceiro para Terceirizado
 
-MATRÍCULA DO EMPREGADO SOLICITANTE(Para aprovação do gestor):
+MATRÍCULA DO EMPREGADO SOLICITANTE (Para aprovação do gestor):
 NOME COMPLETO:
 CARGO:
 CPF:
@@ -340,7 +340,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-ativar-desativar-empregado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [ATIVAÇÃO/DESATIVAÇÃO] de usuário empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [ATIVAÇÃO/DESATIVAÇÃO] de usuário empregado
 
 USUÁRIO: [nome do empregado]
 MATRÍCULA: [matrícula]
@@ -375,7 +375,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-ativar-desativar-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [ATIVAÇÃO/DESATIVAÇÃO] de usuário terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [ATIVAÇÃO/DESATIVAÇÃO] de usuário terceirizado
 
 NOME: [nome do terceirizado]
 CPF: [CPF do terceirizado]
@@ -408,7 +408,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-ativar-desativar-jovem-aprendiz')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [ATIVAÇÃO/DESATIVAÇÃO] de usuário jovem aprendiz
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [ATIVAÇÃO/DESATIVAÇÃO] de usuário jovem aprendiz
 
 NOME: [nome do jovem aprendiz]
 MATRÍCULA: [matrícula]
@@ -439,7 +439,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-desbloquear-empregado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando desbloquear de usuário empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando desbloquear de usuário empregado
 
 USUÁRIO: [nome do empregado]
 MATRÍCULA: [matrícula]
@@ -473,7 +473,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-desbloquear-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando desbloquear de usuário terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando desbloquear de usuário terceirizado
 
 NOME: [nome do terceirizado]
 CPF: [CPF do terceirizado]
@@ -506,7 +506,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-desbloquear-jovem-aprendiz')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando desbloquear de usuário jovem aprendiz
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando desbloquear de usuário jovem aprendiz
 
 NOME: [nome do jovem aprendiz]
 MATRÍCULA: [matrícula]
@@ -542,7 +542,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-grupos-liberar-bloquear-empregado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [liberar/bloquear] grupo de usuário empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [liberar/bloquear] grupo de usuário empregado
 
 USUÁRIO: [nome do empregado]
 MATRÍCULA: [matrícula]
@@ -577,7 +577,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-grupos-liberar-bloquear-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [liberar/bloquear] grupo de usuário terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [liberar/bloquear] grupo de usuário terceirizado
 
 NOME: [nome do terceirizado]
 CPF: [CPF do terceirizado]
@@ -610,7 +610,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-grupos-liberar-bloquear-jovem-aprendiz')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [liberar/bloquear] grupo de usuário jovem aprendiz
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [liberar/bloquear] grupo de usuário jovem aprendiz
 
 NOME: [nome do jovem aprendiz]
 MATRÍCULA: [matrícula]
@@ -645,7 +645,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('modificar')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">::-webkit-scrollbar: width: 10px;">::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados do usuário
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados do usuário
 
 USUÁRIO: [nome do usuário]
 MATRÍCULA: [matrícula]
@@ -655,7 +655,7 @@ NOVO VALOR: [novo valor desejado]
 JUSTIFICATIVA: [motivo da alteração]
 
 Contato:
-Área:</pre></pre>
+Área:</pre>
                 </div>
                 
                 <div class="success-message" id="copy-success">
@@ -681,7 +681,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('bloquear-desbloquear-funcionario')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [BLOQUEIO/DESBLOQUEIO] de acesso remoto para empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [BLOQUEIO/DESBLOQUEIO] de acesso remoto para empregado
 
 USUÁRIO: [nome do usuário]
 MATRÍCULA: [matrícula]
@@ -689,7 +689,7 @@ MOTIVO: [segurança/desligamento/solicitação do gestor/outro]
 JUSTIFICATIVA: [detalhar o motivo]
 
 Contato:
-Área:</pre></pre>
+Área:</pre>
                 </div>
                 
                 <div class="success-message" id="copy-success">
@@ -714,7 +714,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('configurar-funcionario')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando configuração de acesso remoto para empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando configuração de acesso remoto para empregado
 
 USUÁRIO: [nome do usuário]
 MATRÍCULA: [matrícula]
@@ -748,7 +748,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('criar-excluir-funcionario')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [CRIAÇÃO/EXCLUSÃO] de acesso remoto para empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [CRIAÇÃO/EXCLUSÃO] de acesso remoto para empregado
 
 USUÁRIO: [nome do usuário]
 MATRÍCULA: [matrícula]
@@ -784,7 +784,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('reportar-falha-funcionario')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços reportando falha no acesso remoto para empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços reportando falha no acesso remoto para empregado
 
 USUÁRIO AFETADO: [nome do usuário]
 MATRÍCULA: [matrícula]
@@ -819,7 +819,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('auditoria-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando auditoria de acesso remoto para terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando auditoria de acesso remoto para terceirizado
 
 NOME: [nome do terceirizado]
 CPF: [CPF do terceirizado]
@@ -854,7 +854,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('bloquear-desbloquear-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [BLOQUEIO/DESBLOQUEIO] de acesso remoto para terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [BLOQUEIO/DESBLOQUEIO] de acesso remoto para terceirizado
 
 NOME: [nome do terceirizado]
 CPF: [CPF do terceirizado]
@@ -888,7 +888,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('configurar-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando configuração de acesso remoto para terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando configuração de acesso remoto para terceirizado
 
 NOME: [nome do terceirizado]
 CPF: [CPF do terceirizado]
@@ -923,7 +923,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('criar-excluir-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [CRIAÇÃO/EXCLUSÃO] de acesso remoto para terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [CRIAÇÃO/EXCLUSÃO] de acesso remoto para terceirizado
 
 NOME: [nome do terceirizado]
 CARGO: [cargo do terceirizado]
@@ -961,7 +961,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('reportar-falha-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços reportando falha no acesso remoto para terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços reportando falha no acesso remoto para terceirizado
 
 NOME AFETADO: [nome do terceirizado]
 EMPRESA: [empresa terceirizada]
@@ -996,7 +996,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('liberar-bloquear-adobe')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [LIBERAÇÃO/BLOQUEIO] do Adobe Sign
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [LIBERAÇÃO/BLOQUEIO] do Adobe Sign
 
 MATRÍCULA: [matrícula]
 MATRÍCULA ESPELHO: [matrícula espelho obrigatória]
@@ -1029,7 +1029,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('grupos-liberar-bloquear')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando [LIBERAÇÃO/BLOQUEIO] de grupo para usuário
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando [LIBERAÇÃO/BLOQUEIO] de grupo para usuário
 
 USUÁRIO: [nome do usuário]
 MATRÍCULA: [matrícula]
@@ -1061,7 +1061,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-modificar-empregado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados do empregado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados do empregado
 
 USUÁRIO: [nome do empregado]
 MATRÍCULA: [matrícula]
@@ -1097,7 +1097,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-modificar-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados de usuário terceirizado
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados de usuário terceirizado
 
 NOME: [nome do terceirizado]
 USERNAME: [Nome de usuário]
@@ -1106,7 +1106,7 @@ VALOR ATUAL: [valor atual do campo]
 NOVO VALOR: [novo valor desejado]
 JUSTIFICATIVA: [motivo da alteração]
 
-MATRÍCULA DE EMPREGADO(Para aprovação do gestor):
+MATRÍCULA DE EMPREGADO (Para aprovação do gestor):
 Contato:
 Área:</pre>
                 </div>
@@ -1131,7 +1131,7 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-modificar-jovem-aprendiz')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados de usuário jovem aprendiz
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando modificação de dados de usuário jovem aprendiz
 
 NOME: [nome do jovem aprendiz]
 MATRÍCULA: [matrícula]
@@ -1140,7 +1140,7 @@ VALOR ATUAL: [valor atual do campo]
 NOVO VALOR: [novo valor desejado]
 JUSTIFICATIVA: [motivo da alteração]
 
-MATRÍCULA DE EMPREGADO(Para aprovação do gestor):
+MATRÍCULA DE EMPREGADO (Para aprovação do gestor):
 Contato:
 Área:</pre>
                 </div>
@@ -1156,10 +1156,10 @@ Contato:
                 <div class="required-fields">
                     <h5>⚠️ Campos obrigatórios:</h5>
                     <ul>
-			<li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
-			<li><strong>Importante:</strong> O terceirizado só pode resetar a sua própria senha</li>
+            <li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
+            <li><strong>Importante:</strong> O terceirizado só pode resetar a sua própria senha</li>
                         <li><strong>Solicitante:</strong> Matrícula</li>
-			<li><strong>Importante:</strong> preencher dados pessoais</li>
+            <li><strong>Importante:</strong> preencher dados pessoais</li>
                         <li><strong>Portfólio:</strong> Acesso > Usuário > Senha/Alterar</li>
                     </ul>
                 </div>
@@ -1167,12 +1167,12 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-senha-alterar-empregado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede do empregado(a).
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede do empregado(a).
 
 MATRÍCULA: [matrícula]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório (confirmar no sistema)]
 
 Contato: 
 Área:</pre>
@@ -1190,8 +1190,8 @@ Contato:
                 <div class="required-fields">
                     <h5>⚠️ Campos obrigatórios:</h5>
                     <ul>
-			<li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
-			<li><strong>Importante:</strong> O terceirizado só pode resetar a sua própria senha</li>
+            <li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
+            <li><strong>Importante:</strong> O terceirizado só pode resetar a sua própria senha</li>
                         <li><strong>Solicitante:</strong> Nome completo do solicitante</li>
                         <li><strong>Solicitante:</strong> Matrícula</li>
                         <li><strong>Portfólio:</strong> Acesso > Usuário > Senha/Alterar</li>
@@ -1201,11 +1201,11 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-senha-alterar-terceirizado')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede do terceirizado(a).
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede do terceirizado(a).
 
 USUÁRIO: [nome do terceirizado(a)]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
 
 Contato: 
 Área:</pre>
@@ -1223,8 +1223,8 @@ Contato:
                 <div class="required-fields">
                     <h5>⚠️ Campos obrigatórios:</h5>
                     <ul>
-			<li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
-			<li><strong>Importante:</strong> O terceirizado só pode resetar a sua própria senha</li>
+            <li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
+            <li><strong>Importante:</strong> O terceirizado só pode resetar a sua própria senha</li>
                         <li><strong>Solicitante:</strong> Matrícula</li>
                         <li><strong>Portfólio:</strong> Acesso > Usuário > Senha/Alterar</li>
                     </ul>
@@ -1233,12 +1233,12 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-senha-alterar-jovem-aprendiz')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede de usuário jovem aprendiz
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede de usuário jovem aprendiz
 
 MATRÍCULA: [matrícula]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório (confirmar no sistema)]
 
 Contato: 
 Área:</pre>
@@ -1264,12 +1264,12 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-configurar-mfa')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando configuração de MFA
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando configuração de MFA
 
 USUÁRIO: [matrícula / UserName]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado (confirmar no sistema)]
 
 Contato: 
 Área:</pre>
@@ -1286,8 +1286,8 @@ Contato:
                 <div class="required-fields">
                     <h5>⚠️ Campos obrigatórios:</h5>
                     <ul>
-			            <li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
-			            <li><strong>Importante:</strong> O terceirizado só pode alterar seu próprio MFA</li>
+                        <li><strong>Importante:</strong> Preencher dados pessoais e confirmar no sistema</li>
+                        <li><strong>Importante:</strong> O terceirizado só pode alterar seu próprio MFA</li>
                         <li><strong>Portfólio:</strong> Acesso > Reportar falha - MFA > Configurar</li>
                     </ul>
                 </div>
@@ -1295,12 +1295,12 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-reportar-falha-mfa')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços reportando falha de MFA
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços reportando falha de MFA
 
 USUÁRIO: [matrícula / UserName]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado (confirmar no sistema)]
 
 Contato: 
 Área:</pre>
@@ -1317,9 +1317,9 @@ Contato:
                 <div class="required-fields">
                     <h5>⚠️ Campos obrigatórios:</h5>
                     <ul>
-			            <li><strong>Usuario</strong> UserName ou Matrícula</li>
-			            <li><strong>Importante:</strong> Necessário o caminho completo da pasta "Exemplo: \\copanet04.copanet.copasa\publico"</li>
-                        <li><strong>Importante:</strong> Necessário matrícula espelho(usuário que possui acesso a pasta)</li>
+                        <li><strong>Usuario</strong> UserName ou Matrícula</li>
+                        <li><strong>Importante:</strong> Necessário o caminho completo da pasta "Exemplo: \\servidor.empresaexemplo.local\publico"</li>
+                        <li><strong>Importante:</strong> Necessário matrícula espelho (usuário que possui acesso a pasta)</li>
                         <li><strong>Portfólio:</strong> Acesso > Controle de Acesso - Ambiente/Pasta > Acesso - Liberar / Bloquear</li>
                     </ul>
                 </div>
@@ -1327,9 +1327,9 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-acesso-liberar-bloquear-pasta')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando acesso [liberar/bloquear] pasta de rede
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando acesso [liberar/bloquear] pasta de rede
 
-CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\copanet04.copanet.copasa\publico"]
+CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\servidor.empresaexemplo.local\publico"]
 USUÁRIO: [matrícula / UserName]
 MATRÍCULA ESPELHO: [matrícula de outro usuário com acesso a pasta]
 
@@ -1348,8 +1348,8 @@ Contato:
                 <div class="required-fields">
                     <h5>⚠️ Campos obrigatórios:</h5>
                     <ul>
-			            <li><strong>Usuario</strong> UserName ou Matrícula</li>
-			            <li><strong>Importante:</strong> Necessário o caminho completo de onde ira ficar a pasta "Exemplo: \\copanet04.copanet.copasa\publico"</li>
+                        <li><strong>Usuario</strong> UserName ou Matrícula</li>
+                        <li><strong>Importante:</strong> Necessário o caminho completo de onde irá ficar a pasta "Exemplo: \\servidor.empresaexemplo.local\publico"</li>
                         <li><strong>Importante:</strong> Necessário aprovação do gerente aprovador</li>
                         <li><strong>Portfólio:</strong> Acesso > Controle de Acesso - Ambiente/Pasta > Criar pasta de rede </li>
                     </ul>
@@ -1358,9 +1358,9 @@ Contato:
                 <h4>📝 Template para Descrição:</h4>
                 <div class="template-box" style="max-height: 300px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 8px; position: relative;">
                     <button class="copy-btn" onclick="copyTemplate('copy-criar-pasta-de-rede')">📋 Copiar</button>
-<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;::-webkit-scrollbar: width: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de pasta de rede
+<pre style="font-family: inherit; white-space: pre-wrap; margin-bottom: -100px; padding-top: 10px;">Foi feito o contato com a Central de Serviços solicitando criação de pasta de rede
 
-CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\copanet04.copanet.copasa\publico"]
+CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\servidor.empresaexemplo.local\publico"]
 USUÁRIO: [matrícula de empregado / UserName]
 
 Contato: 
@@ -1394,11 +1394,11 @@ function copyCustomTemplate(templateType) {
 
 function copyTemplate(templateType) {
     const templates = {
-        'empregado': `Foi feito o contato com a Central de Serviços solicitando criação de usuário xxxxxxnet para outro empregado
+        'empregado': `Foi feito o contato com a Central de Serviços solicitando criação de usuário de rede interna para outro empregado
 
 MATRÍCULA:
 NOME:
-E-MAIL: matricula@cxxxxx.com.br
+E-MAIL: matricula@empresaexemplo.com.br
 SETOR:
 CPF:
 RG:
@@ -1408,7 +1408,7 @@ MATRÍCULA ESPELHO:
 
 Contato:
 Área:`,
-        'jovem-aprendiz': `Foi feito o contato com a Central de Serviços solicitando criação de usuário xxxxxxnet e E-mail Parceiro para Jovem Aprendiz
+        'jovem-aprendiz': `Foi feito o contato com a Central de Serviços solicitando criação de usuário de rede interna e E-mail Parceiro para Jovem Aprendiz
 
 MATRÍCULA DO EMPREGADO SOLICITANTE(Para aprovação do gestor):
 NOME COMPLETO:
@@ -1416,14 +1416,14 @@ MATRÍCULA:
 CPF:
 RG:
 DATA DE NASCIMENTO:
-E-MAIL: matricula@parceiro.cxxxxx.com.br
+E-MAIL: matricula@parceiro.empresaexemplo.com.br
 ESPELHO:
 EMPRESA:
 VALIDADE:
 
 Contato:
 Área:`,
-        'terceirizado': `Foi feito o contato com a Central de Serviços solicitando criação de usuário xxxxxxnet e E-mail Parceiro para Terceirizado
+        'terceirizado': `Foi feito o contato com a Central de Serviços solicitando criação de usuário de rede interna e E-mail Parceiro para Terceirizado
 
 MATRÍCULA DO EMPREGADO SOLICITANTE(Para aprovação do gestor):
 NOME COMPLETO:
@@ -1665,17 +1665,6 @@ JUSTIFICATIVA: [motivo da necessidade do Adobe Sign]
 
 Contato:
 Área:`,
-        'reportar-falha-terceirizado': `Foi feito o contato com a Central de Serviços reportando falha no acesso remoto para terceirizado
-
-NOME AFETADO: [nome do terceirizado]
-EMPRESA: [empresa terceirizada]
-DESCRIÇÃO DA FALHA: [descrever detalhadamente o problema]
-QUANDO OCORREU: [data e horário]
-MENSAGEM DE ERRO: [se houver, transcrever a mensagem]
-AÇÕES JÁ REALIZADAS: [tentativas de solução]
-
-Contato:
-Área:`,
         'liberar-bloquear-adobe': `Foi feito o contato com a Central de Serviços solicitando [LIBERAÇÃO/BLOQUEIO] do Adobe Sign
 
 MATRÍCULA: [matrícula]
@@ -1699,9 +1688,9 @@ Contato:
 
 USUÁRIO: [nome do usuário]
 MATRÍCULA: [matrícula]
-TIPO DE SENHA: [xxxxxxnet/SAP/Sistema Interno]
+TIPO DE SENHA: [Rede/SAP/Sistema Interno]
 MOTIVO: [esqueceu a senha/bloqueio/expiração/outro]
-OBSERVAÇÃO: Acesse http://xetaxxxxxxxxxxxx para criar novas senhas
+OBSERVAÇÃO: Acesse http://portaldesenhas.empresaexemplo.com.br para criar novas senhas
 
 Contato:
 Área:`,
@@ -1820,7 +1809,7 @@ VALOR ATUAL: [valor atual do campo]
 NOVO VALOR: [novo valor desejado]
 JUSTIFICATIVA: [motivo da alteração]
 
-MATRÍCULA DE EMPREGADO(Para aprovação do gestor):
+MATRÍCULA DE EMPREGADO (Para aprovação do gestor):
 Contato:
 Área:`,
         'copy-modificar-jovem-aprendiz': `Foi feito o contato com a Central de Serviços solicitando modificação de dados de usuário jovem aprendiz
@@ -1832,32 +1821,32 @@ VALOR ATUAL: [valor atual do campo]
 NOVO VALOR: [novo valor desejado]
 JUSTIFICATIVA: [motivo da alteração]
 
-MATRÍCULA DE EMPREGADO(Para aprovação do gestor):
+MATRÍCULA DE EMPREGADO (Para aprovação do gestor):
 Contato:
 Área:`,
         'copy-senha-alterar-empregado': `Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede do empregado(a).
 
 MATRÍCULA: [matrícula]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório (confirmar no sistema)]
 
 Contato: 
 Área:`,
         'copy-senha-alterar-terceirizado': `Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede do terceirizado(a).
 
 USUÁRIO: [nome do terceirizado(a)]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
 
 Contato: 
 Área:`,
         'copy-senha-alterar-jovem-aprendiz': `Foi feito o contato com a Central de Serviços solicitando alteração de senha de rede de usuário jovem aprendiz
 
 MATRÍCULA: [matrícula]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório (confirmar no sistema)]
 
 Contato: 
 Área:`, 
@@ -1875,24 +1864,24 @@ Contato:
     'copy-configurar-mfa': `Foi feito o contato com a Central de Serviços solicitando configuração de MFA
 
 USUÁRIO: [matrícula / UserName]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado (confirmar no sistema)]
 
 Contato: 
 Área:`,
     'copy-reportar-falha-mfa': `Foi feito o contato com a Central de Serviços reportando falha de MFA
 
 USUÁRIO: [matrícula / UserName]
-CPF: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE NACIMENTO.: [preenchimento obrigatório(confirmar no sistema)]
-DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado(confirmar no sistema)]
+CPF: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE NASCIMENTO: [preenchimento obrigatório (confirmar no sistema)]
+DATA DE ADMISSÃO: [preenchimento obrigatório caso seja empregado (confirmar no sistema)]
 
 Contato: 
 Área:`,
     'copy-acesso-liberar-bloquear-pasta': `Foi feito o contato com a Central de Serviços solicitando acesso [liberar/bloquear] pasta de rede
 
-CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\copanet04.copanet.copasa\publico"]
+CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\servidor.empresaexemplo.local\publico"]
 USUÁRIO: [matrícula / UserName]
 MATRÍCULA ESPELHO: [matrícula de outro usuário com acesso a pasta]
 
@@ -1900,7 +1889,7 @@ Contato:
 Área:`,
     'copy-criar-pasta-de-rede': `Foi feito o contato com a Central de Serviços solicitando criação de pasta de rede
 
-CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\copanet04.copanet.copasa\publico"]
+CAMINHO DA PASTA: [caminho que começa com \\ "Exemplo: \\servidor.empresaexemplo.local\publico"]
 USUÁRIO: [matrícula de empregado / UserName]
 
 Contato: 
@@ -1973,24 +1962,8 @@ function applyVisibleModules() {
 // Variável para armazenar a ação atual
 let currentAction = '';
 
-// Função para mostrar modal de seleção de tipo de usuário
+// Função unificada para mostrar modal de seleção de tipo de usuário
 function showUserTypeModal(action = 'criar') {
-    currentAction = action;
-    const questionElement = document.getElementById('user-type-question');
-    
-    const actionTexts = {
-        'criar': 'Qual tipo de usuário você deseja criar?',
-        'ativar-desativar': 'Qual tipo de usuário você deseja ativar/desativar?',
-        'desbloquear': 'Qual tipo de usuário você deseja desbloquear?',
-        'grupos-liberar-bloquear': 'Para qual tipo de usuário você deseja gerenciar grupos?',
-        'modificar': 'Qual tipo de usuário você deseja modificar?',
-        'senha-alterar': 'Para qual tipo de usuário você deseja alterar a senha?'
-    };
-    
-    questionElement.textContent = actionTexts[action] || 'Selecione o tipo de usuário:';
-    document.getElementById('user-type-modal').style.display = 'block';
-}
-function showUserTypeModal(action = 'ativar-desativar') {
     currentAction = action;
     const questionElement = document.getElementById('user-type-question');
     
@@ -2311,7 +2284,7 @@ function createNewModule() {
 }
 
 function updateAdminView() {
-    // Função removida - botões são adicionados dinamicamente no showGuide
+    // Função mantida vazia - botões são adicionados dinamicamente no showGuide
 }
 
 function editTemplate(guideType) {
@@ -2374,5 +2347,4 @@ function saveTemplate() {
     
     alert('✅ Template salvo permanentemente!');
     closeAdminEdit();
-    
 }
